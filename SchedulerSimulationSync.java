@@ -31,6 +31,11 @@ class Colors {
 // ⚠️ SHARED RESOURCES - These need synchronization! ⚠️
 class SharedResources {
     // TODO: Students will add synchronization mechanisms here
+    public static final ReentrantLock contextSwitchLock = new ReentrantLock();
+    public static final ReentrantLock completedProcessLock = new ReentrantLock();
+    public static final ReentrantLock waitingTimeLock = new ReentrantLock();
+    public static final ReentrantLock logLock = new ReentrantLock();
+    
     // HINT: Use ReentrantLock for mutual exclusion
     // HINT: Use Semaphore for limiting concurrent access
     
