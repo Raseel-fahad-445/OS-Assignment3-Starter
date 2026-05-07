@@ -1,8 +1,8 @@
 # Assignment 3 - Complete Documentation
 
-**Student Name**: [Your Full Name]  
-**Student ID**: [Your ID]  
-**Date Submitted**: [Submission Date]
+**Student Name**: [Raseel fahad alotaibi ]  
+**Student ID**: [445052150]  
+**Date Submitted**: [6 may]
 
 ---
 
@@ -31,42 +31,60 @@
 
 Document your development process with **minimum 3 entries** showing progression:
 
-### Entry 1 - [Date, Time]
-**What I implemented**: 
+Entry 1 - [May 3, 2026 - 4:00 PM]
 
-**Challenges encountered**: 
+What I implemented:
+Created the Process class and basic CPU scheduling simulation.
 
-**How I solved it**: 
+Challenges encountered:
+Processes were not updating correctly after execution.
 
-**Testing approach**: 
+How I solved it:
+Used remainingTime variable to track execution progress.
 
-**Time spent**: 
+Testing approach:
+Ran the program with 5 sample processes.
 
----
+Time spent:
+2 hours
 
-### Entry 2 - [Date, Time]
-**What I implemented**: 
+⸻
 
-**Challenges encountered**: 
+Entry 2 - [May 4, 2026 - 6:30 PM]
 
-**How I solved it**: 
+What I implemented:
+Added synchronization using ReentrantLock.
 
-**Testing approach**: 
+Challenges encountered:
+Race conditions happened when multiple threads updated counters.
 
-**Time spent**: 
+How I solved it:
+Added separate locks for each shared counter.
 
----
+Testing approach:
+Executed program multiple times and checked final values.
 
-### Entry 3 - [Date, Time]
-**What I implemented**: 
+Time spent:
+1.5 hours
 
-**Challenges encountered**: 
+⸻
 
-**How I solved it**: 
+Entry 3 - [May 5, 2026 - 7:00 PM]
 
-**Testing approach**: 
+What I implemented:
+Implemented execution logging and waiting time calculations.
 
-**Time spent**: 
+Challenges encountered:
+Execution log sometimes became inconsistent.
+
+How I solved it:
+Protected executionLog using logLock.
+
+Testing approach:
+Verified log messages order after execution.
+
+Time spent:
+2 hours
 
 ---
 
