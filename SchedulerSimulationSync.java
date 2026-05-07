@@ -38,6 +38,7 @@ class SharedResources {
     
     // HINT: Use ReentrantLock for mutual exclusion
     // HINT: Use Semaphore for limiting concurrent access
+    public static final Semaphore cpuSemaphore = new Semaphore(1);
     
     public static int contextSwitchCount = 0;      // Shared counter - NEEDS PROTECTION!
     public static int completedProcessCount = 0;   // Shared counter - NEEDS PROTECTION!
